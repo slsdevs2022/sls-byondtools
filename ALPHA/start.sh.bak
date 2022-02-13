@@ -1,10 +1,10 @@
 #!/bin/bash
 PS3='Please pick your option '
-choice=("Install" "Compile" "Compile & Host" "Host" "Exit")
+choice=("Compile" "Compile & Host" "Host" "Exit")
 select fav in "${choice[@]}"; do
     case $fav in
-		"Install")
-			sudo sh /install-byond.sh 
+		##"Install")
+		##	sudo sh /install-byond.sh 
         "Compile")
             sudo sh /compile.sh
         "Compile & Host")

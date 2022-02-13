@@ -7,10 +7,13 @@ select fav in "${choice[@]}"; do
 		##	sudo sh /install-byond.sh 
         "Compile")
             sudo sh /compile.sh
+			;;
         "Compile & Host")
             sudo sh /compile-host.sh
+			;;
         "Host")
             sudo sh /host.sh
+			;;
 	"Exit")
 	    echo "User requested exit"
 	    exit
