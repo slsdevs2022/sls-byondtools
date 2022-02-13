@@ -16,7 +16,7 @@ byond_version_minor = sys.argv[2]
 ####
 ####
 
-if sys.platform == "win32" or sys.platform == "darwin":
+if sys.platform == "win32" or sys.platform == "darwin": ##make sure its not a windows OS
   print("ERROR: This script only runs on linux.")
   quit()
 print("Installing dependencies...")
