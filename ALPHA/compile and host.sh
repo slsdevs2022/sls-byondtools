@@ -1,0 +1,6 @@
+echo BYOND: compiling the source code...
+sudo DreamMaker ../*.dme
+echo BYOND: sucessfully compiled source code!
+echo BYOND: hosting game on port 2020...
+sudo DreamDaemon ../*.dmb 2020 -trusted -logself&
+echo BYOND: game hosted!
