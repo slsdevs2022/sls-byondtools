@@ -1,0 +1,6 @@
+echo compiling source code...
+sudo DreamMaker ../*.dme
+echo success!
+echo hosting game on port 2020...
+sudo DreamDaemon ../*.dmb -trusted 2020 -logself &
+echo success!
