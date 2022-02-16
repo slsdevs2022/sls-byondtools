@@ -1,3 +1,4 @@
+echo MAKE SURE YOU RUN AS SUDO/ROOT!
 echo Prepairing the system...
 sudo dpkg --add-architecture i386
 sudo apt update
