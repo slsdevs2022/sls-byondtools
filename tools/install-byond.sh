@@ -10,4 +10,4 @@ sudo apt install make git unzip python3 python3-pip lib32z1 lib32ncurses5 libc6-
 sudo apt autoremove
 sudo apt autoclean
 echo Installing BYOND...
-sudo python3 INSTALL.py 514 1568
+sudo python3 INSTALL.py 514 1583
